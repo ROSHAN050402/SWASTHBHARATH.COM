@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css" />
+    <title>Register</title>
+</head>
+<body>
+    <h1></h1>
+    <div class="registration-form">
+        <form>
+            <h2>Patient Registeration Form</h2>
+            <div class="form-icon">
+                <span><i class="fa-solid fa-briefcase-medical"></i></span>
+            </div>
+            <div class="form-group">
+                <label for="first name">Your first name</label>
+                <input type="text" id="fname" class="form-control item" id="Fname" placeholder="Enter First Name" max="18" required>
+            </div>
+            <div class="form-group">
+                <label for="last name">Your last name</label>
+                <input type="text" class="form-control item" id="Lname" placeholder="Your Last Name" required>
+            </div>
+            <div class="form-group">
+                <select class="form-control-item form-select gender">
+                    <option selected>Gender</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                    <option value="3">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="mail i'd">Your Mail I'D'</label>
+                <input type="text" class="form-control item" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone no.">Your phone number</label>
+                <input type="number" class="form-control item" id="phone-number" placeholder="Your Phone Number" required>
+            </div>
+            <div class="form-group">
+                <input type="date" class="form-control item" id="birth-date" placeholder="Birth Date">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control item" id="blood-group" placeholder="Blood Group" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control item" id="Sugar-level" placeholder="Sugar Level" required>
+            </div>
+            <div class="form-group">
+                <textarea id="msg" cols="46" rows="4" placeholder="YOUR CONCERN"></textarea>
+            </div>
+            <div class="button">
+                <button id="send" onclick="message()">REGISTER!!</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
